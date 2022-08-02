@@ -29,7 +29,7 @@ variable "vpn_ipv4_cidr_blocks" {
   description = "allow access from the ipv4 vpn into the VPC"
   type        = list(string)
   default = [
-    "24.46.35.244/32"
+    "0.0.0.0/0"
   ]
 }
 
